@@ -1,0 +1,94 @@
+.skills-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #111, #1e1e1e);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.skills-title {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #00bfff;
+  text-shadow: 0 0 15px #00bfff;
+  animation: title-fade 2s ease-in-out forwards;
+}
+
+@keyframes title-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skills-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 0 10px;
+}
+
+.skill-bar {
+  background: #2c2c2c;
+  height: 45px;
+  border-radius: 50px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 10px #000;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease;
+}
+
+.skill-bar:hover {
+  transform: scale(1.02);
+}
+
+.skill-fill {
+  padding-left: 80px;
+  background: linear-gradient(90deg, #00bfff, #0077ff);
+  height: 100%;
+  border-radius: 50px;
+  padding-right: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #fff;
+  font-weight: 700;
+  animation: fill-skill 1.8s ease forwards;
+  box-shadow: inset 0 0 10px #00bfff;
+}
+
+@keyframes fill-skill {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: var(--fill-width);
+    /* JSda yoki motion bilan kiritiladi */
+  }
+}
+
+/* Optional: Responsive */
+@media (max-width: 768px) {
+  .skills-title {
+    font-size: 2.2rem;
+  }
+
+  .skill-bar {
+    height: 40px;
+    font-size: 1rem;
+  }
+}

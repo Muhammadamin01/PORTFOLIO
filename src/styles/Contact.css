@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+.contact-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  animation: bgPulse 20s ease infinite;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+@keyframes bgPulse {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.fade-in .glass-card {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  color: #e0e0e0;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease;
+}
+
+.contact-title {
+  font-size: 32px;
+  text-align: center;
+  color: #00ffe7;
+  margin-bottom: 30px;
+  text-shadow: 0 0 15px #00ffe7;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 2;
+
+  i {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    color: #9c27b0;
+    text-shadow: 0 0 8px #9c27b0;
+  }
+
+  strong {
+    color: #ccc;
+  }
+
+  a {
+    color: #00bcd4;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+
+    &:hover {
+      color: #80deea;
+      text-shadow: 0 0 6px #00e6ff;
+    }
+  }
+}
