@@ -4,7 +4,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center ;
+  justify-content: center;
   padding: 60px 20px;
   color: white;
   overflow: hidden;
@@ -61,7 +61,7 @@
   text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
-  transition:  0.3s ease;
+  transition: 0.3s ease;
 }
 
 .home-btn:hover {
@@ -88,7 +88,6 @@
   transform: scale(1.05);
 }
 
-/* Responsivlik */
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column-reverse;

@@ -8,7 +8,6 @@ const Home = () => {
       <div className="overlay" />
 
       <div className="home-container">
-        {/* Left side: text */}
         <motion.div
           className="home-text"
           initial={{ x: -60, opacity: 0 }}
@@ -18,10 +17,10 @@ const Home = () => {
           <h1>Hello, I am Zakariyo</h1>
           <h2>Frontend Developer | React & TypeScript</h2>
           <p className="bio">
-            Hello, I'm Zakariyo. I'm a young and passionate frontend
-            developer. My main focus is on making user interfaces beautiful,
-            fast and interactive. I love working with React, TypeScript, CSS and
-            I'm always looking to learn new technologies.{" "}
+            Hello, I'm Zakariyo. I'm a young and passionate frontend developer.
+            My main focus is on making user interfaces beautiful, fast and
+            interactive. I love working with React, TypeScript, CSS and I'm
+            always looking to learn new technologies.{" "}
           </p>
           <a href="#contact" className="home-btn">
             write to me

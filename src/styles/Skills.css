@@ -77,11 +77,9 @@
 
   to {
     width: var(--fill-width);
-    /* JSda yoki motion bilan kiritiladi */
   }
 }
 
-/* Optional: Responsive */
 @media (max-width: 768px) {
   .skills-title {
     font-size: 2.2rem;
