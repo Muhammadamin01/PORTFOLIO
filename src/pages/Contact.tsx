@@ -41,8 +41,8 @@ const ContactPage: React.FC = () => {
           <p>
             <i className="fab fa-telegram"></i>
             <strong> Telegram:</strong>{" "}
-            <a href="https://t.me/KD_SHAD0W" target="_blank">
-              @KD_SHAD0W
+            <a href="https://t.me/zakariyo_xk" target="_blank">
+              @zakariyo_xk
             </a>
           </p>
         </div>
