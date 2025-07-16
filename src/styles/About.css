@@ -52,6 +52,9 @@
   border-radius: 6px;
   transition: transform 0.3s;
 }
+.skill-list li .figma {
+  width: 20px;
+}
 .skill-list li img {
   width: 30px;
   height: 30px;

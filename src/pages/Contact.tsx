@@ -34,8 +34,8 @@ const ContactPage: React.FC = () => {
           <p>
             <i className="fab fa-instagram"></i>
             <strong> Instagram:</strong>{" "}
-            <a href="https://instagram.com/KD_SHAD0W" target="_blank">
-              @KD_SHAD0W
+            <a href="https://instagram.com/zakariyo_xk" target="_blank">
+              @zakariyo_xk
             </a>
           </p>
           <p>
